@@ -1,6 +1,7 @@
-# Generate Random Japanese
+## Generate Random Japanese
 
 [![Build Status](https://travis-ci.org/tcnksm/random_japanese.png?branch=master)](https://travis-ci.org/tcnksm/random_japanese)
+[![Dependency Status](https://gemnasium.com/tcnksm/random_japanese.png)](https://gemnasium.com/tcnksm/random_japanese)
 
 Just generate ordinal japanese charactors randomly.
 
