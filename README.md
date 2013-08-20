@@ -1,10 +1,15 @@
 ## Generate Random Japanese
 
 [![Build Status](https://travis-ci.org/tcnksm/random_japanese.png?branch=master)](https://travis-ci.org/tcnksm/random_japanese)
+[![Gem Version](https://badge.fury.io/rb/random_japanese.png)](http://badge.fury.io/rb/random_japanese)
 [![Dependency Status](https://gemnasium.com/tcnksm/random_japanese.png)](https://gemnasium.com/tcnksm/random_japanese)
 
-Just generate ordinal japanese charactors randomly.
+指定した文字数の日本語をランダムで出力するライブラリです。
+漢字は常用漢字のみを出力します。テストなどで使って下さい。
 
+RandomJapanese generate random charactors in certain length.
+Charactors are Kanji or Hiragana, Katakana. Kanji is only daily-usage.
+You can use it in test. 
 
 ## Installation
 
