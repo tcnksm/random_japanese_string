@@ -1,5 +1,6 @@
 ## Generate Random Japanese String
-[![Gem Version](https://badge.fury.io/rb/random_japanese_string.png)](http://badge.fury.io/rb/random_japanese_string)[![Build Status](https://travis-ci.org/tcnksm/random_japanese_string.png?branch=master)](https://travis-ci.org/tcnksm/random_japanese_string)
+[![Gem Version](https://badge.fury.io/rb/random_japanese_string.png)](http://badge.fury.io/rb/random_japanese_string)
+[![Build Status](https://travis-ci.org/tcnksm/random_japanese_string.png?branch=master)](https://travis-ci.org/tcnksm/random_japanese_string)
 
 指定した文字数の日本語文字列をランダムで出力するライブラリです．
 出力文字は，ひらがな，カタカナ，常用漢字，それらの統合どれかを選択できます．
