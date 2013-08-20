@@ -1,3 +1,5 @@
+require "moji"
+
 # Code coverage
 # See https://github.com/colszowka/simplecov
 require 'simplecov'
@@ -8,4 +10,5 @@ RSpec.configure do |config|
 end
 
 $:.unshift File.join(File.dirname(__FILE__), "..", "lib")
+require 'random_japanese'
 

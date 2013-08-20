@@ -1,3 +1,4 @@
-module RandomJapanese
+
+class RandomJapanese
   VERSION = "0.0.1"
 end
