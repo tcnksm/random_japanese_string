@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["tcnksm"]
   spec.email         = ["nsd22843@gmail.com"]
   spec.description   = %q{Generate Japanese ramdomly.}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.summary       = %q{Generate Japanese like kanji or katakana, hiragana ramdomly. }
+  spec.homepage      = "https://rubygems.org/profiles/tc"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
