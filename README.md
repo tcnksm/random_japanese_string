@@ -1,21 +1,18 @@
-## Generate Random Japanese
+## Generate Random Japanese String
 
-[![Build Status](https://travis-ci.org/tcnksm/random_japanese.png?branch=master)](https://travis-ci.org/tcnksm/random_japanese)
-[![Gem Version](https://badge.fury.io/rb/random_japanese.png)](http://badge.fury.io/rb/random_japanese)
-[![Dependency Status](https://gemnasium.com/tcnksm/random_japanese.png)](https://gemnasium.com/tcnksm/random_japanese)
+指定した文字数の日本語文字列をランダムで出力するライブラリです．
+出力文字は，ひらがな，カタカナ，常用漢字，それらの統合どれかを選択できます．
+テストなどに使ってください．
 
-指定した文字数の日本語をランダムで出力するライブラリです。
-漢字は常用漢字のみを出力します。テストなどで使って下さい。
-
-RandomJapanese generate random charactors in certain length.
-Charactors are Kanji or Hiragana, Katakana. Kanji is only daily-usage.
+RandomJapaneseString generate random Japanese strings in certain length which you set.
+Strings are Kanji, Hiragana, Katakana or mix. Kanji is only daily-usage.
 You can use it in test. 
 
 #### Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'random_japanese'
+    gem 'random_japanese_string'
 
 And then execute:
 
@@ -23,16 +20,24 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install random_japanese
+    $ gem install random_japanese_string
 
 #### Usage
 
-    require 'random_japanese'
-    rj = RandomJapanese.new
+    require 'random_japanese_string'
+    rj = RandomJapaneseString.new
     rj.katakana(10)             # => "バユョヅオセミハシャ"
     rj.hiragana(10)             # => "まかぞぬざぶゃでばる"
     rj.kanji(10)                # => "撤絵占署拓燃価態小誉"
+    rj.generate(10)             # => "みほ峠対涙塗ガ友そる"
 
+or
+
+    require 'random_japanese_string'
+    RandomJapaneseString.katakana(10)
+    RandomJapaneseString.hiragana(10)
+    RandomJapaneseString.kanji(10)    
+    
 #### Contributing
 
 1. Fork it

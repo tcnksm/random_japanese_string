@@ -33,7 +33,7 @@ describe RandomJapaneseString do
 
   describe "instance method" do
     
-    before {@rj = RandomJapaneseString.new }
+    before { @rj = RandomJapaneseString.new }
     describe "#hiragana()" do
       subject { @rj.hiragana(30) }
       its(:length) { should eq 30 }
