@@ -10,5 +10,5 @@ RSpec.configure do |config|
 end
 
 $:.unshift File.join(File.dirname(__FILE__), "..", "lib")
-require 'random_japanese'
+require 'random_japanese_string'
 
