@@ -1,4 +1,5 @@
 ## Generate Random Japanese String
+[![Build Status](https://travis-ci.org/tcnksm/random_japanese_string.png?branch=master)](https://travis-ci.org/tcnksm/random_japanese_string)
 
 指定した文字数の日本語文字列をランダムで出力するライブラリです．
 出力文字は，ひらがな，カタカナ，常用漢字，それらの統合どれかを選択できます．
@@ -52,7 +53,3 @@ or
 2. Build it (`gem build random_japanese_string.gemspec`)
 3. Push it (`gem push random_japanese_sgring-X.X.X.gem`)
     - To push, you should install gemcutter (`gem install gemcutter`)
-
-#### ToDo
-
-- when using `all`, Kanji is generated too much
