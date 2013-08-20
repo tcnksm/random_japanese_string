@@ -1,6 +1,9 @@
-# RandomJapanese
+# Generate Random Japanese
 
-TODO: Write a gem description
+[![Build Status](https://travis-ci.org/tcnksm/random_japanese.png?branch=master)](https://travis-ci.org/tcnksm/random_japanese)
+
+Just generate ordinal japanese charactors randomly.
+
 
 ## Installation
 
