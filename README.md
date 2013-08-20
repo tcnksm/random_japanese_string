@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'random_japanese'
+    rj = RandomJapanese.new
+    rj.katakana(10)             # => "バユョヅオセミハシャ"
+    rj.hiragana(10)             # => "まかぞぬざぶゃでばる"
+    rj.kanji(10)                # => "撤絵占署拓燃価態小誉"
 
 ## Contributing
 
@@ -31,3 +35,10 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Release
+
+1. Bundle it (`bundle --path vendor/bundle --binstubs .bundle/bin`)
+2. Build it (`gem build random_japanese.gemspec`)
+3. Push it (`gem push random_japanese-X.X.X.gem`)
+    - To push , gemcutter is needed (`gem install gemcutter`)
