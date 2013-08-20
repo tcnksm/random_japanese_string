@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'random_japanese/version'
+require 'random_japanese_string/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "random_japanese"
-  spec.version       = RandomJapanese::VERSION
+  spec.name          = "random_japanese_string"
+  spec.version       = RandomJapaneseString::VERSION
   spec.authors       = ["tcnksm"]
   spec.email         = ["nsd22843@gmail.com"]
-  spec.description   = %q{Generate Japanese ramdomly.}
-  spec.summary       = %q{Generate Japanese like kanji or katakana, hiragana ramdomly. }
-  spec.homepage      = "https://rubygems.org/profiles/tc"
+  spec.description   = %q{Generate random Japanese strings.}
+  spec.summary       = %q{Generate random Japanese strings in kanji or katakana, hiragana.}
+  spec.homepage      = "https://github.com/tcnksm/random_japanese_string"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
