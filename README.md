@@ -9,6 +9,15 @@ RandomJapaneseString generate random Japanese strings in certain length which yo
 Strings are Kanji, Hiragana, Katakana or mix. Kanji is only daily-usage.
 You can use it in test. 
 
+#### Requirement
+
+ruby
+
+- 1.9.2
+- 1.9.3
+- 2.0.0
+
+
 #### Installation
 
 Add this line to your application's Gemfile:
@@ -37,7 +46,8 @@ or
     require 'random_japanese_string'
     RandomJapaneseString.katakana(10)
     RandomJapaneseString.hiragana(10)
-    RandomJapaneseString.kanji(10)    
+    RandomJapaneseString.kanji(10)
+    RandomJapaneseString.generate(10)    
     
 #### Contributing
 
