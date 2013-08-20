@@ -49,9 +49,9 @@ or
 #### Release
 
 1. Bundle it (`bundle --path vendor/bundle --binstubs .bundle/bin`)
-2. Build it (`gem build random_japanese.gemspec`)
-3. Push it (`gem push random_japanese-X.X.X.gem`)
-    - To push , gemcutter is needed (`gem install gemcutter`)
+2. Build it (`gem build random_japanese_string.gemspec`)
+3. Push it (`gem push random_japanese_sgring-X.X.X.gem`)
+    - To push, you should install gemcutter (`gem install gemcutter`)
 
 #### ToDo
 

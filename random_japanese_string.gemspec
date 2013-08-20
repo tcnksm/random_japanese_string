@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RandomJapaneseString::VERSION
   spec.authors       = ["tcnksm"]
   spec.email         = ["nsd22843@gmail.com"]
-  spec.description   = %q{Generate random Japanese strings.}
-  spec.summary       = %q{Generate random Japanese strings in kanji or katakana, hiragana.}
+  spec.description   = %q{Generate random Japanese string. }
+  spec.summary       = %q{Generate random Japanese string in kanji, katakana, hiragana or mix.}
   spec.homepage      = "https://github.com/tcnksm/random_japanese_string"
   spec.license       = "MIT"
 
