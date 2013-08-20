@@ -18,11 +18,10 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.has_rdoc      = false
-
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec", ">= 2.13"
   spec.add_development_dependency "guard-rspec"
+  spec.add_development_dependency "simplecov"
   
 end
